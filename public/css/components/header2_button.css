@@ -1,0 +1,22 @@
+* {
+	--color-yellow: rgb(255, 239, 69);
+	--color-yellow--dark: rgb(241, 225, 54);
+	--text-color: rgb(137, 127, 67);
+	--text-color--dark: rgb(54, 54, 54);
+}
+
+.header2__button {
+	background-color: var(--color-yellow);
+	border-radius: 0.3rem;
+	color: var(--text-color);
+	font-weight: normal;
+	padding: 1rem;
+	transition-property: background-color, color;
+	transition-duration: 0.3s, 0.5s;
+	transition-timing-function: ease-in-out;
+}
+
+.header2__button:hover {
+	background-color: var(--color-yellow--dark);
+	color: var(--text-color--dark);
+}

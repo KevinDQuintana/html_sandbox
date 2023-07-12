@@ -1,0 +1,13 @@
+* {
+	--color-yellow: rgb(255, 239, 69);
+	--color-yellow--dark: rgb(237, 222, 54);
+	--text-color: rgb(137, 127, 67);
+	--text-color--dark: rgb(0, 0, 0);
+}
+
+.header2__navbar {
+	background-color: var(--color-yellow);
+	display: flex;
+	justify-content: center;
+	margin: 1rem;
+}

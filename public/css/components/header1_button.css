@@ -1,0 +1,37 @@
+.header1__button {
+	background-color: #5A189A;
+	border: 5px solid #50148c;
+	border-radius: 0.5rem;
+	box-shadow: 0 0 20px 5px #6d26ab;
+	color: #ffffff;
+	font-size: 1.385rem;
+	font-weight: 900;
+	padding: 0.5rem 1rem;
+	transition-property: background-color, box-shadow, color;
+	transition-duration: 0.5s, 0.2s;
+	transition-timing-function: ease-in-out;
+	/* transition: background-color 2s ease-in-out; */ /* investigar sobre como usar mas propiedades y tiempos */
+	/* transition: box-shadow 0.5s ease-in-out; */
+	/* transition: color 0.5s ease-in-out; */
+}
+
+.header1__button:hover {
+	background-color: #E0AAFF;
+	border: 5px solid #E0AAFF;
+	box-shadow: 0 0 20px 5px #E0AAFF;
+	color: #50148c;
+}
+
+.header1__button--dif {
+	background-color: #E0AAFF;
+	border: 5px solid #E0AAFF;
+	box-shadow: 0 0 20px 5px #E0AAFF;
+	color: #50148c;
+}
+
+.header1__button--dif:hover {
+	background-color: #5A189A;
+	border: 5px solid #5A189A;
+	box-shadow: 0 0 20px 5px #5A189A;
+	color: #ffffff;
+}

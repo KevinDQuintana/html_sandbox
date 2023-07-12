@@ -1,0 +1,17 @@
+.header4__button {
+	background-color: transparent;
+	padding: 1rem;
+	color: #000000;
+	font-weight: 500;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	transition: color 0.1s ease-in-out;
+}
+
+.header4__button:hover {
+	color: #ffffff;
+}
+
+.header4__button:active {
+	background-color: #e15616;
+}

@@ -1,0 +1,38 @@
+.header5__list {
+	background-color: inherit;
+	display: flex;
+	gap: 1rem;
+}
+
+.header5__list-item {
+	display: flex;
+	background-color: inherit;
+	flex-direction: column;
+	transition: padding 0.5s ease-in-out;
+}
+
+.header5__list-item:hover {
+	.header5__button-bar {
+		transform: scaleX(100%);
+		transition: transform 0.3s ease-in-out;
+	}
+}
+
+.header5__button {
+	background-color: #00bafb;
+	border-radius: 0.3rem;
+	color: #000000;
+	font-size: 1.3rem;
+	font-weight: 900;
+	padding: 0.4rem 0.8rem;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.header5__button-bar {
+	background-color: #ffffff;
+	padding: 0.1rem 2.5rem;
+	margin-top: 0.5rem;
+	transform: scaleX(0);
+	transition: transform 0.3s ease-in-out;
+}
