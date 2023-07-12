@@ -1,1 +1,1 @@
-Sandbox con pruebas de botones.
+Pruebas en html, css y javascript con "BEM" naming convention.
